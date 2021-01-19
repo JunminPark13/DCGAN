@@ -9,7 +9,7 @@ DCGAN은 Convolutional layer를 GAN 네트워크에 적용시킨 구조를 갖�
 - 기존 GAN에서 Linear Layer와 Pooling Layer 최대한 배제 <br>
 - Discriminator는 Convolutional Layer를 사용하여 사진에서 이미지 특징 추출<br>
 - Generator는 Trnsposed Convolutional Layer를 사용하여 특징 생성<br><br>
-
+<img src="/img/dataset.PNG" width="100" height="100">
 ### Data 수집
 kaggle Cat and Dog Dataset에서 개 사진 다운로드하여 2500장 사용<br>
 (https://www.kaggle.com/tongpython/cat-and-dog)<br>
