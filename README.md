@@ -13,7 +13,7 @@ DCGAN은 Convolutional layer를 GAN 네트워크에 적용시킨 구조를 갖�
 ### Data 수집
 kaggle Cat and Dog Dataset에서 개 사진 다운로드하여 2500장 사용<br>
 (https://www.kaggle.com/tongpython/cat-and-dog)<br>
-![data](./img/dataset.PNG){: width="100" height="100"}
+![data](./img/dataset.PNG){: width="80" height="80"}
 <br>
 사진 크기를 128*128로 일괄 조정<br><br>
 
