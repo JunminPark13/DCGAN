@@ -9,11 +9,11 @@ DCGAN은 Convolutional layer를 GAN 네트워크에 적용시킨 구조를 갖�
 - 기존 GAN에서 Linear Layer와 Pooling Layer 최대한 배제 <br>
 - Discriminator는 Convolutional Layer를 사용하여 사진에서 이미지 특징 추출<br>
 - Generator는 Trnsposed Convolutional Layer를 사용하여 특징 생성<br><br>
-<img src="/img/dataset.PNG" width="100" height="100">
+
 ### Data 수집
 kaggle Cat and Dog Dataset에서 개 사진 다운로드하여 2500장 사용<br>
 (https://www.kaggle.com/tongpython/cat-and-dog)<br>
-![data](./img/dataset.PNG){: width="80" height="80"}
+<img src="/img/dataset.PNG" width="300" height="300">
 <br>
 사진 크기를 128*128로 일괄 조정<br><br>
 
@@ -25,11 +25,11 @@ kaggle Cat and Dog Dataset에서 개 사진 다운로드하여 2500장 사용<br
 
 ### 결과
 3epoch<br>
-![3epoch](./img/result_3epoch.PNG){: width="100" height="100"}<br><br>
+<img src="/img/result_3epoch.PNG" width="300" height="300"><br><br>
 50epoch<br>
-![50epoch](./img/result_50epoch.PNG){: width="100" height="100"}<br><br>
+<img src="/img/result_50epoch.PNG" width="300" height="300"><br><br>
 100epoch<br>
-![100epoch](./img/result_100epoch.png){: width="100" height="100"}<br><br><br>
+<img src="/img/result_100epoch.png" width="300" height="300"><br><br><br>
 100 epoch의 결과 개의 형체가 어느정도 나타나는 새로운 이미지가 생성되는 것을 확인할 수 있었다.<br><br>
 
 ### 한계
